@@ -29,13 +29,31 @@ This repository is a curated collection of professional-grade Python scripts des
 * **Technical Highlights:** Utilizes `os` and `shutil` libraries for secure file handling and directory management.
 * **Security Use Case:** Maintains a clean and organized digital workstation, ensuring sensitive logs and captures are never misplaced.
 
-5. 🏗️ Iteration & Randomized Audit Simulator
-Purpose: Models a global, multi-region infrastructure scan to test security response logic.
+### 5. 🏗️ Iteration & Randomized Audit Simulator
+* **Purpose:** Models a global, multi-region infrastructure scan to test security response logic.
 
-Technical Highlights: Implements nested for loops and random probability gates to simulate a 20% "Chaos" failure rate across London, USA, and China nodes.
+* **Technical Highlights:** Implements nested for loops and random probability gates to simulate a 20% "Chaos" failure rate across London, USA, and China nodes.
 
-Security Use Case: Used for "Stress Testing" automation scripts to ensure they can handle multiple simultaneous device failures or randomized security breaches.
+* **Security Use Case:** Used for "Stress Testing" automation scripts to ensure they can handle multiple simultaneous device failures or randomized security breaches.
+
+
+### 6. 🧹 Network Log (HAR) Sanitizer
+* **Purpose:** Automatically redacts PII and sensitive session data from HTTP Archive (.har) files before they are shared for debugging.
+
+* **Technical Highlights:**  Leverages Python's json and re libraries to bulk-process files, stripping Authorization headers and Cookies while masking email addresses.
+
+* **Security Use Case:**Critical for Data Privacy Compliance and preventing accidental credential leakage during QA testing or security auditing.
+
+### 7. 🛡️ Cisco Firewall & ACL Configurator
+* **Purpose:** Automates the generation of firewall rules and Access Control Lists (ACLs) for Cisco network infrastructure.
+
+* **Technical Highlights:**  Scripted logic for defining inbound/outbound rules and OSPF routing configurations.
+
+* **Security Use Case:** Streamlines the hardening of network perimeters and ensures consistent security policies across routers.
+
+
 ---
+
 
 ## 🛠️ Technical Competencies
 * **Languages:** Python (Security Tooling), Bash, PowerShell.
